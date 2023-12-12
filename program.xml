@@ -1,0 +1,22 @@
+<program>
+    <while>
+        <condition>
+            <bin op = "5">
+                <id>i</id>
+                <int>5</int>
+            </bin>
+        </condition>
+        <block>
+            <print>
+                <id>i</id>
+            </print>
+            <assign>
+                <id>i</id>
+                <bin op = "1">
+                    <id>i</id>
+                    <int>1</int>
+                </bin>
+            </assign>
+        </block>
+    </while>
+</program>
